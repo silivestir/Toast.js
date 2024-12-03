@@ -4,7 +4,8 @@ The documentation structure you've created does not include any in-page navigati
 
 You will need to add `id` attributes to the sections of your documentation so that they can be referenced. Update your documentation like this:
 
-```markdown
+ 
+ ```markdown
 # Toast.js Documentation
 
 Toast.js is a lightweight, customizable toast notification class for web applications. It creates non-intrusive notifications that can be displayed at various positions relative to specified context elements or centered within the viewport.
@@ -38,6 +39,7 @@ To use Toast.js, you can either create an instance of the `Toast` class or use t
 
 ### Example:
 
+
 ```javascript
 // Using the static method to show a toast notification
 Toast.makeText("This is a toast message!", 3000, "#FF5733");
@@ -49,6 +51,7 @@ myToast.show("This is another toast message!", 5000);
 
 ## API Methods
 
+```
 <p id="api-methods"></p>
 ### constructor
 
@@ -69,6 +72,7 @@ Configures the default styles of the toast element, including position, backgrou
 ### show
 
 <p id="show"></p>
+
 ```javascript
 show(message, duration = 3000, color = "#333", contextId);
 ```
@@ -85,6 +89,7 @@ Displays the toast notification with the specified parameters.
 ### makeText
 
 <p id="makeText"></p>
+
 ```javascript
 static makeText(message, duration = 3000, color = "#333", contextId);
 ```
@@ -106,6 +111,7 @@ You can customize the default styles of the toast element by modifying the `conf
 ## Examples
 
 <p id="examples"></p>
+
 ```javascript
 // Show a toast with a custom message and duration
 Toast.makeText("Success! Your changes have been saved.", 4000, "#28a745");
@@ -118,19 +124,11 @@ const toast = new Toast();
 toast.show("Welcome to our website!", 5000);
 ```
 
+
 ## License
 
 <p id="license"></p>
 This project is licensed under the MIT License. For more details, check the LICENSE file in this repository.
+
 ```
 
-### Step 2: Testing
-
-Once you've made these changes, when someone clicks on a link in the "Table of Contents," it will scroll the page to the corresponding section using the specified IDs. 
-
-### Note
-
-- This approach works when viewing the `README.md` file on GitHub or any markdown renderer that supports anchor links. 
-- Make sure you test the links after you’ve published to ensure they perform the expected scrolling action. 
-
-Now, clicking on "Installation" will scroll the page to the related section, enhancing navigation within your documentation!
