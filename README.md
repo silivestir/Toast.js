@@ -28,7 +28,7 @@ Toast.js is a lightweight, customizable toast notification class for web applica
 Include the `toast.js` file in your HTML:
 
 ```html
-<script src="path/to/toast.js"></script>
+<script src="https://github.com/silivestir/Toast.js/blob/main/Toast.min.js></script>
 ```
 
 ## Usage
