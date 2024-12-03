@@ -1,4 +1,3 @@
-The documentation structure you've created does not include any in-page navigation links yet. However, you can easily add this functionality by utilizing anchor links. Here’s how to implement it:
 
 ### Step 1: Add Anchor IDs
 
