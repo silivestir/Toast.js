@@ -28,14 +28,16 @@ To use Toast.js, you can include it in your HTML file or import it into your Jav
 ### Option 1: Directly in HTML
 
 ```html
-<script src="https://github.com/silivestir/Toast.js/blob/main/Toast.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/silivestir/Toast.js@main/Toast.js"></script>
+or
+<script src="https://cdn.jsdelivr.net/gh/silivestir/Toast.js@main/Toast.min.js"></script>
 ```
 
 ### Option 2: Importing in JavaScript
 
 If you are using a module system, import it as follows:
 ```javascript
-import Toast from 'https://github.com/silivestir/Toast.js/blob/main/Toast.min.js';
+import Toast from 'https://cdn.jsdelivr.net/gh/silivestir/Toast.js@main/Toast.min.js';
 ```
 
 ## Usage
